@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.random-num-bg {
+    background-image: radial-gradient(red, green, blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+.random-num-card {
+    background: linear-gradient(rgb(171, 120, 120), rgba(5, 5, 188, 0.9));
+
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.random-num-heading {
+    color: cadetblue;
+    font-size: 28px;
+}
+
+.random-num-note {
+    color: cyan;
+    font-size: 20px;
+}
+
+.random-num-btn {
+    padding: 10px;
+    background: lawngreen;
+    color: red;
+    font-size: 20px;
+}
+
+.random-num {
+    font-size: 25px;
+    color: chocolate;
+}
